@@ -19,7 +19,9 @@ All the images in our dataset are hand-clicked by Moto-G5-Plus inside the classr
   - Case 5 : Images taken in LOW light as well.
 - Training is done Google Colaboratory with 12.72GB RAM and 108GB Storage.
 - Sample Images of Dataset used for training :
-  -[]/(path to be givem here).
+  - []/(path to be given here).
+  - []/(path to be given here).
+  - []/(path to be given here).
 
-## Core Idea
-**Object Detection = Object Localisation + Object Recognition (Object Classification)**
+### Core Idea
+ > Object Detection = Object Localisation + Object Recognition (Object Classification)
