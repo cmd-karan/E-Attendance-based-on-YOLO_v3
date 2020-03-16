@@ -24,4 +24,4 @@ All the images in our dataset are hand-clicked by Moto-G5-Plus inside the classr
   - []/(path to be given here).
 
 ### Core Idea
- > Object Detection = Object Localisation + Object Recognition (Object Classification)
+ > **Object Detection = Object Localisation + Object Recognition (Object Classification)**
