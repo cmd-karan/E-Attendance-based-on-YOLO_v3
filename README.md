@@ -11,8 +11,13 @@ All the images in our dataset are hand-clicked by Moto-G5-Plus inside the classr
 - All the images are annotated manually using LabelImg tool.
 - Technique of Transfer Learning is used for training our dataset.
 - Pre-Trained weights are taken from [darknet53.conv.74](https://pjreddie.com/media/files/darknet53.conv.74).
-- Our Dataset consists of images taken for extreme cases to improve maintain a better trade-off between Precision and Recall.
-- 
+- Our Dataset consists of images taken for extreme cases to maintain a better trade-off between Precision and Recall i.e., 
+  -- Case 1 : When NO student whose "Present" is to be marked is really present.
+  -- Case 2 : When ALL students whose "Present" is to be marked are really present.
+  -- Case 3 : When SOME students whose "Present" is to be marked are really present.
+  -- Case 4 : All the above cases when other students are also present(or absent) in the class.
+  -- Case 5 : Images taken in LOW light as well.
+- Training is done Google Colaboratory with 12.72GB RAM and 108GB Storage.
 
 
 ## Core Idea
