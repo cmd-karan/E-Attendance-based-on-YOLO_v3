@@ -1,6 +1,7 @@
 # E-Attendance-System-based-on-YOLOv3-Darknet-Model
 E-Attendance System is based on recognizing the presence of the students using Facial Recognition and then maintaining the records of the students' attendance on MySQL Database. So, the core idea behind our problem is **Object Detection**. Here, objects are the faces of the students whom attendance is to be marked as "Present".
 ## Our Setup
+
 In our setup we have considered only four Classes(or Objects) for Detection i.e., faces of four students.
 All the images in our dataset are hand-clicked by Moto-G5-Plus inside the classrooms of Indian Institute of Information Technology(IIIT), Pune. 
 -The dimension of all the images reduced to 800*600* PPI.
