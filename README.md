@@ -25,3 +25,10 @@ All the images in our dataset are hand-clicked by Moto-G5-Plus inside the classr
 
 ### Core Idea
  > **Object Detection = Object Localisation + Object Recognition (Object Classification)**
+Our Problem of Object Detection can be broken down into two sub-problems : 
+- 1. Object Localisation
+- 2. Object Recognition
+Object Localisation i.e., localising the object within an image can be achieved through Regression techniques whereas Object Recognition i.e., classifying the object localised within bounding boxes, this can be achieved through classification techniques.
+Combining both the techniques we have various versions of RCNN i.e., RCNN, Fast-RCNN, Faster-RCNN but these models are quite slow when they deal in real time.
+Therefore we are using YOLO(You-Only-Look-Once) based model which can process 45 frames per second i.e., fast enough to deal with real time problems.
+ ### Results
